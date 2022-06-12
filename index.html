@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assignment1</title>
+    <style>
+      body {
+        margin: 0% auto;
+        font-family: Arial, sans-serif;
+      }
+      /* header start */
+      .header {
+        background-image: url(header-background.jpg);
+        background-size: cover;
+        float: left;
+        width: 100%;
+        margin-top: -8%;
+      }
+      .header .container {
+        text-align: left;
+        width: 25%;
+        margin: 23% 14%;
+      }
+
+      .header p {
+        font-size: 106%;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .header h1 {
+        margin: -2% 0% 0% 0%;
+        font-size: 383%;
+        text-transform: capitalize;
+      }
+      .header button {
+        background-color: #fff;
+        border: none;
+        padding: 4% 7%;
+        border-radius: 43px;
+        font-size: 12px;
+        text-transform: capitalize;
+        margin: 3% 1%;
+        cursor: pointer;
+      }
+      .clear {
+        clear: both;
+      }
+      /* header end */
+      /* section1 start */
+      .section1 {
+        float: left;
+        width: 100%;
+        overflow: hidden;
+      }
+      .section1 .container {
+        position: relative;
+        left: 25%;
+        padding-bottom: 2%;
+      }
+
+      .section1 .container h3 {
+        font-size: 132%;
+        margin-top: 4%;
+        letter-spacing: 1px;
+      }
+      .section1 .container p {
+        font-size: 87%;
+        width: 52%;
+        text-indent: 2%;
+        margin-left: 1%;
+        line-height: 160%;
+      }
+      .section1 .container p > a {
+        text-decoration: none;
+      }
+      /* section1 end */
+      /* Section2 Start */
+      .section2 {
+        float: left;
+        width: 100%;
+        background-color: #fac769;
+      }
+      .section2 h2 {
+        text-align: center;
+        text-transform: capitalize;
+        word-spacing: 6px;
+        padding: 0.5% 0%;
+        color: #fff;
+      }
+      /* Section2 End */
+      /* section3 Start */
+      .section3 {
+        float: left;
+        width: 100%;
+        padding-bottom: 3%;
+      }
+      .section3 .container {
+        position: relative;
+        left: 25%;
+        padding-bottom: 2%;
+        width: 75%;
+      }
+      .section3 .container h3 {
+        font-size: 132%;
+        margin-top: 6%;
+        letter-spacing: 1px;
+      }
+      .section3 .container .cards {
+        width: 100%;
+      }
+      .section3 .container .cards .card {
+        width: 22%;
+        float: left;
+        background-color: #fac769;
+        margin-left: 2%;
+        position: relative;
+        left: -2%;
+      }
+      .section3 .container .cards .card img {
+        width: 100%;
+      }
+      .section3 .container .cards .card h6 {
+        text-transform: uppercase;
+        position: absolute;
+        top: -1%;
+        left: 6%;
+        background-color: #fac769;
+        padding: 2.5%;
+        border-radius: 20px;
+        font-size: 61%;
+        font-weight: normal;
+      }
+      .section3 .container .cards .card .content {
+        box-sizing: border-box;
+        padding: 3% 8%;
+        text-align: left;
+      }
+      .section3 .container .cards .card .content h5 {
+        text-transform: uppercase;
+        font-size: 82%;
+        display: inline;
+      }
+      .section3 .container .cards .card .content p {
+        color: #fff;
+        font-size: 77%;
+        line-height: 17px;
+      }
+      .section3 .container .container2 {
+        width: 100%;
+      }
+      .section3 .container .container2 h3 {
+        font-size: 132%;
+        letter-spacing: 1px;
+        margin: 7% 4% 2% 9%;
+      }
+      .section3 .container .container2 .reasons {
+        position: relative;
+      }
+      .section3 .container .container2 .reasons .article {
+        width: 16%;
+        margin-left: 3%;
+        position: relative;
+        left: -3%;
+        float: left;
+      }
+      .section3 .container .container2 .reasons .article h2 {
+        position: absolute;
+        top: -24%;
+        z-index: -1;
+        font-size: 324%;
+        color: #fac769;
+      }
+      .section3 .container .container2 .reasons .article h5 {
+        text-transform: uppercase;
+      }
+      .section3 .container .container2 .reasons .article p {
+        font-size: 77%;
+        line-height: 17px;
+        color: rgb(118, 118, 118);
+      }
+      .section3 .container .container2 .reasons .article p > a {
+        text-decoration: none;
+        color: #fac769;
+      }
+      /* section3 End */
+      /* section3 Start */
+      .section4 {
+        float: left;
+        width: 100%;
+        background-color: #fac769;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1% 0%;
+      }
+      .section4 .contents {
+        position: relative;
+        right: 2%;
+      }
+      .section4 .contents p {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 70%;
+      }
+      .section4 .contents h2 {
+        word-spacing: 6px;
+        padding: 0.5% 0%;
+        color: #fff;
+      }
+      .section4 .learn button {
+        background-color: #fff;
+        border: none;
+        padding: 18.8% 11.3%;
+        border-radius: 43px;
+        font-size: 10px;
+        text-transform: capitalize;
+        margin: 3% 1%;
+        cursor: pointer;
+        width: 205%;
+        position: relative;
+        left: 150%;
+      }
+      /* section3 End */
+      /* footer start */
+      .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .footer .container {
+        width: 18%;
+        text-transform: capitalize;
+        text-align: center;
+        padding: 3% 0% 1%;
+      }
+      .footer p {
+        font-size: 75%;
+        color: rgb(145, 145, 145);
+      }
+      /* footer end */
+    </style>
+  </head>
+  <body>
+    <!-- header start -->
+    <div class="header">
+      <div class="container">
+        <p>thinking of buying a headphone?</p>
+        <h1>headphones website</h1>
+
+        <button>signup</button>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <!-- header end -->
+    <!-- Section1 start -->
+    <div class="section1">
+      <div class="container">
+        <h3>Find a quality and right headphones not easy</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+          vehicula consequat est, in scelerisque odio egestas sed. Mauris in
+          pharetra felis. Morbi at massa nec enim ornare facilisis. Sed egestas
+          sapien in nisi semper porta. Nullam id lectus non augue mollis cursus.
+          In hac habitasse platea dictumst. Aliquam maximus ligula erat, at
+          posuere tortor tempus vel. Nunc a ipsum ornare, porttitor leo vel,
+          lacinia leo. <a href="">Learn More...</a>
+        </p>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <!-- Section1 end -->
+    <!-- Section 2 Start -->
+    <div class="section2">
+      <h2>business HTML templates free download</h2>
+    </div>
+    <!-- Section 2 End -->
+    <!-- Section 3 Start -->
+    <div class="section3">
+      <div class="container">
+        <h3>Hottest headphones of the month</h3>
+        <div class="cards">
+          <div class="card">
+            <img src="01.jpg" alt="" />
+            <h6>headphones</h6>
+            <div class="content">
+              <h5>headphones</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent vehicula consequat est, in scelerisque odio egestas
+                sed. Mauris in pharetra felis. Morbi at massa nec enim ornare
+                facilisis.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="02.jpg" alt="" />
+            <h6>headphones</h6>
+            <div class="content">
+              <h5>headphones</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent vehicula consequat est, in scelerisque odio egestas
+                sed. Mauris in pharetra felis. Morbi at massa nec enim ornare
+                facilisis.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="03.jpg" alt="" />
+            <h6>headphones</h6>
+            <div class="content">
+              <h5>headphones</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent vehicula consequat est, in scelerisque odio egestas
+                sed. Mauris in pharetra felis. Morbi at massa nec enim ornare
+                facilisis.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+
+        <div class="container2">
+          <h3>Why do you have to buy headphones only for us?</h3>
+          <div class="reasons">
+            <div class="article">
+              <h2>01.</h2>
+              <h5>high quality</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent vehicula consequat est, in scelerisque odio egestas
+                sed. Mauris in pharetra felis. Morbi at massa nec enim ornare
+                facilisis. <br />
+                <a href="">Learn More...</a>
+              </p>
+            </div>
+            <div class="article">
+              <h2>02.</h2>
+              <h5>original devices</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent vehicula consequat est, in scelerisque odio egestas
+                sed. Mauris in pharetra felis. Morbi at massa nec enim ornare
+                facilisis. <br />
+                <a href="">Learn More...</a>
+              </p>
+            </div>
+            <div class="article">
+              <h2>03.</h2>
+              <h5>year warranty</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent vehicula consequat est, in scelerisque odio egestas
+                sed. Mauris in pharetra felis. Morbi at massa nec enim ornare
+                facilisis. <br />
+                <a href="">Learn More...</a>
+              </p>
+            </div>
+            <div class="article">
+              <h2>04.</h2>
+              <h5>week to check</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent vehicula consequat est, in scelerisque odio egestas
+                sed. Mauris in pharetra felis. Morbi at massa nec enim ornare
+                facilisis. <br />
+                <a href="">Learn More...</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <!-- Section 3 End -->
+    <!-- Section 4 Start -->
+    <div class="section4">
+      <div class="contents">
+        <p>hurry up! the offer is limited</p>
+        <h2>Like it? Pre-order and get a discount</h2>
+      </div>
+      <div class="learn">
+        <button>learn more</button>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <!-- Section 4 End -->
+    <!-- footer start -->
+    <div class="footer">
+      <div class="container">
+        <p>&COPY; 2021 All rights reserved terms of use and privacy policy</p>
+      </div>
+    </div>
+    <!-- footer end -->
+  </body>
+</html>
